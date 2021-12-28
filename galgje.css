@@ -1,0 +1,67 @@
+#letters {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#letters button {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#endingDiv {
+    padding-top: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#endingDiv button {
+    background-color: lightskyblue;
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 2px solid midnightblue;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 12px;
+    padding: 0.5em 0.5em;
+
+}
+
+.pattern {
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    width: 50%;
+    height: auto;
+    max-width: 550px;
+    max-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 7%;
+    margin: 0.1%;
+    padding: 1em 3em;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.clicked {
+    background-color: darkorange;
+}
